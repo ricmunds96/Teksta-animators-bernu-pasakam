@@ -1,0 +1,1134 @@
+@import url(https://fonts.googleapis.com/css?family=Work + Sans:300, 600);
+
+body {
+    overflow-x: hidden;
+    color: #10615b;
+    height: 80vh;
+}
+
+img {
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.pasakas_karts {
+    border: 0.1vw solid #000;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    min-height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+    .pasakas_karts div {
+        position: relative;
+        padding: 0.5vw;
+        height: calc(100% - 1vw);
+        width: calc(100% - 1vw);
+    }
+
+.saturs div.pasakas_karts {
+    min-height: 15vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pasaka_neeksiste {
+    margin-top: 5rem;
+}
+
+#pasakas_teikums {
+    padding: 1rem 0 1rem 7rem;
+    z-index: 1;
+    position: relative;
+    background: rgba(248, 234, 207, 0.9);
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+    #pasakas_teikums span:hover {
+        cursor: pointer;
+        background-color: #41543c;
+        color: #f8eacf;
+    }
+
+.pasakas_titullapa img {
+    height: 30vh;
+    margin: 2vw auto;
+    display: block;
+}
+
+.pasakas_titullapa p {
+    text-align: center;
+    width: 80vw;
+}
+
+button {
+    background: #87d3c7;
+    color: #41543c;
+    border-radius: 1vw;
+    padding: 0.5rem 1rem;
+}
+
+.pasakas_titullapa button {
+    border-radius: 1vw;
+    margin: 2vw auto;
+    display: block;
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+    .pasakas_titullapa button:hover {
+        cursor: pointer;
+    }
+
+p {
+    color: #41543c;
+    font-size: 3vw;
+    line-height: 3.5vw;
+}
+
+.teksta_atstarpe {
+    line-height: 3.6vw;
+    margin-top: 1vw;
+}
+
+    .teksta_atstarpe::first-letter {
+        margin-left: 4vw;
+    }
+
+h1 {
+    color: #41543c;
+    font-size: 4vw;
+    line-height: 4.5vw;
+}
+
+h3 {
+    color: #41543c;
+    font-size: 3vw;
+    line-height: 3.5vw;
+}
+
+h2 {
+    color: #41543c;
+    font-size: 3vw;
+    line-height: 3.5vw;
+    margin: 2vw 0 -1.5vw 0;
+}
+
+a {
+    color: #e9a74a;
+}
+
+.atstarpe_auksa {
+    display: block;
+    margin-top: 4vw;
+}
+
+.atstarpe_apaksa {
+    margin-bottom: 4vw;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.nav ul li {
+    font-size: 3vw;
+}
+
+body {
+    background: #f8eacf;
+    font-family: Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.atstarpe {
+    height: 6vw;
+}
+
+.saturs {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2vw;
+    border: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10vw;
+}
+
+    .saturs .vidus {
+        grid-column: 1/3;
+    }
+
+.vidus h1 {
+    margin-top: 2rem;
+}
+
+.saturs .vidus_mazais {
+    width: 100%;
+    grid-column: 1/2;
+}
+
+.saturs .Attels {
+    background: url(../images/sakuma_apraksts.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+    grid-column: 1/2;
+    width: 100%;
+    height: 60vw;
+    margin-left: 15vw;
+}
+
+.apraksts {
+    margin-top: 1vw;
+}
+
+#nav_turetajs {
+    background: #c1d671;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 6vw;
+}
+
+.nav_poga {
+    display: none;
+}
+
+.ievade_paradit_poga {
+    width: 100%;
+    display: block;
+    margin-top: 2vw;
+}
+
+    .ievade_paradit_poga p {
+        font-size: 3vw;
+        padding: 2vw 0;
+        color: #e9a74a;
+    }
+
+        .ievade_paradit_poga p:hover {
+            cursor: pointer;
+        }
+
+    .ievade_paradit_poga input,
+    .ievade_paslepts {
+        display: none;
+    }
+
+    .ievade_paradit_poga span {
+        display: block;
+    }
+
+    .ievade_paradit_poga .Paradit_Poga:checked + span .ievade_paslepts {
+        display: block;
+    }
+
+.logo {
+    color: #41543c;
+    font-size: 3.3vw;
+    padding-top: 1.6vw;
+    line-height: 2vw;
+}
+
+#labot_pasaku_iespejas {
+    height: 70%;
+    margin: 5%;
+    font-size: 18px;
+    position: absolute;
+    width: 4rem;
+    padding: 0 0.2rem;
+    margin: 0.3rem;
+    left: 0;
+}
+
+#nav_turetajs label {
+    position: absolute;
+    padding: 2.5vw 1vw;
+    top: 0;
+    left: 0;
+    height: 1vw;
+    width: calc(100% - 2vw);
+}
+
+    #nav_turetajs label span,
+    #nav_turetajs label span::after,
+    #nav_turetajs label span::before {
+        display: block;
+        background: #fefefe;
+        height: 0.5vw;
+        width: 5vw;
+        border-radius: 0.3vw;
+        position: relative;
+        float: right;
+    }
+
+        #nav_turetajs label span::after,
+        #nav_turetajs label span::before {
+            content: "";
+            position: absolute;
+        }
+
+        #nav_turetajs label span::before {
+            bottom: 1.2vw;
+        }
+
+        #nav_turetajs label span::after {
+            top: 1.2vw;
+        }
+
+.nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 0.5s ease-in-out;
+}
+
+    .nav ul {
+        background: #c1d671;
+    }
+
+        .nav ul li {
+            padding-bottom: 2vw;
+            margin-left: 1vw;
+            transition: opacity 150ms ease-in-out;
+            opacity: 0;
+        }
+
+    .nav a {
+        color: #41543c;
+        font-size: 1.8vw;
+        padding-bottom: 0.7vw;
+    }
+
+        .Konts_nav a:hover,
+        .nav a:hover {
+            color: #aa7000;
+        }
+
+.nav_poga:checked ~ .nav {
+    transform: scale(1, 1);
+}
+
+    .nav_poga:checked ~ .nav li {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+
+.nav .nav_Izvelets {
+    color: #aa7000;
+}
+
+.konts_sadalas {
+    display: none;
+    position: absolute;
+    margin-top: 7vh;
+    background: #c1d671;
+    padding: 1rem 0;
+}
+
+    .konts_sadalas a {
+        padding: 1rem;
+    }
+
+    #navigacija_konts:hover + .konts_sadalas,
+    .konts_sadalas:hover {
+        display: block;
+    }
+
+#navigacija_konts img {
+    width: 1rem;
+    margin-left: 0.2rem;
+}
+
+.sliders {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #41543c;
+    outline: 0;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+
+    .sliders::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #c1d671;
+        cursor: pointer;
+    }
+
+    .sliders::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #c1d671;
+        cursor: pointer;
+    }
+
+#meklet_pasaku {
+    margin-top: 2rem;
+}
+
+    #meklet_pasaku h3 {
+        float: left;
+        line-height: 2rem;
+        margin-right: 0.5rem;
+    }
+
+    #meklet_pasaku input {
+        height: 1.8rem;
+    }
+
+#pievienot_pasaku {
+    grid-column: 1/4;
+    margin-top: 2vw;
+}
+
+.labot_pasaku {
+    position: absolute;
+    bottom: 0.5vw;
+}
+
+.labot_pasaku {
+    left: 0.5vw;
+}
+
+.pasakas_karts_pogu_atstarpe {
+    display: block;
+    height: 4vw;
+}
+
+#kreisa_mala {
+    width: 6rem;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.attelu_turetajs,
+.fonu_turetajs {
+    border-radius: 1vw;
+    border: 1px solid #87d3c7;
+    background: rgba(248, 234, 207, 0.9);
+    position: relative;
+    overflow-y: auto;
+}
+
+.attelu_turetajs {
+    height: 53vh;
+}
+
+.fonu_turetajs {
+    height: 32vh;
+    margin-top: 0.5rem;
+}
+
+    .fonu_turetajs p {
+        text-align: center;
+        font-weight: 700;
+        margin: 0.5rem 0;
+    }
+
+#fonu_virsraksts {
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    padding: 0.7rem 0.7rem 0 0.7rem;
+}
+
+#fona_pievienosana {
+    color: red;
+}
+
+    #fona_pievienosana:hover {
+        cursor: pointer;
+    }
+
+#pasaka_uz_atpakal,
+#pasaka_uz_prieksu {
+    border-radius: 1vw;
+    margin: 1vw;
+    display: block;
+    padding: 1vw;
+    font-size: 2vw;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+}
+
+    #pasaka_uz_prieksu span {
+        line-height: 3.5vh;
+        margin-right: 1vh;
+        float: left;
+    }
+
+    #pasaka_uz_atpakal span {
+        float: right;
+        line-height: 3.5vh;
+        margin-left: 1vh;
+    }
+
+#pasaka_uz_prieksu {
+    right: 0;
+}
+
+#pasaka_uz_atpakal {
+    left: 0;
+}
+
+    #pasaka_uz_atpakal p,
+    #pasaka_uz_prieksu p {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 0 10px;
+    }
+
+#pasaka_uz_prieksu p {
+    float: left;
+}
+
+#pasaka_uz_atpakal p {
+    float: right;
+}
+
+.pasaka_bulta {
+    width: 50px;
+}
+
+.paralaks {
+    perspective: 300px;
+    overflow: hidden;
+    height: calc(100vh - 6vw);
+}
+
+.paralaks_grupa {
+    position: relative;
+    height: calc(100vh - 6vw);
+    width: 90vw;
+    margin-left: 10vw;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    --shift: 10px;
+    --x: 800;
+    --y: 400;
+    transform: translate3d(calc((100vw - var(--x) * var(--shift)) / 90), calc((100vw - var(--y) * var(--shift)) / 90), -300px) scale(2);
+}
+
+    .paralaks_grupa img {
+        position: absolute;
+        left: 40%;
+    }
+
+.paralaks_elements {
+    --x: 0;
+    --y: 0;
+    --z: 0;
+    transform: translateZ(250px);
+    width: 300px;
+    display: none;
+}
+    .paralaks_elements.redzams {
+        display: block;
+    }
+
+#definesana {
+    padding: 1rem;
+    background: #f8eacf;
+    display: none;
+    position: relative;
+    z-index: 1;
+    width: 60%;
+    margin: 0 auto;
+}
+
+    #definesana img {
+        height: 2rem;
+        float: right;
+    }
+
+    #definesana form {
+        padding-top: 2rem;
+        display: none;
+    }
+
+        #definesana form input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+            #definesana form input.dzimte_ievade {
+                width: auto;
+                margin-bottom: 0.2rem;
+            }
+
+    #definesana img:hover {
+        cursor: pointer;
+    }
+
+.attela_opcijas {
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .attela_opcijas:hover {
+        cursor: pointer;
+    }
+
+    .attela_opcijas.redzams:hover {
+        cursor: default;
+    }
+
+    .attela_opcijas img {
+        width: 2rem;
+        margin: 0 auto;
+        position: relative;
+        display: none;
+    }
+
+        .attela_opcijas img.attels_izdzest {
+            width: 1rem;
+            margin: 0;
+            padding: 0.5rem;
+            float: right;
+        }
+
+.attels_izdzest:hover {
+    cursor: pointer;
+}
+
+.attela_opcijas input {
+    display: none;
+    margin: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+.attela_opcijas.redzams:hover input, .attela_opcijas.redzams:hover img {
+    display: block;
+}
+
+.attela_opcijas.redzams:hover::before {
+    content: " ";
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#forma_dzest_attelu_fonu {
+    margin-top: auto;
+}
+
+    #forma_dzest_attelu_fonu .dzest {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        border: 0;
+        width: 100%;
+        background: rgba(248, 234, 207, 0.9);
+        padding: 0 0.2rem 0.4rem 0.2rem;
+        color: red;
+        font-size: 16px;
+    }
+
+.dzest:hover {
+    cursor: pointer;
+}
+
+.fons_izvele {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .fons_izvele:hover {
+        cursor: pointer;
+    }
+
+.saturs .Konts_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 125%;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 1;
+    background: #87d3c7;
+    margin-bottom: 4vw;
+}
+
+.Konts_nav a {
+    font-size: 3vw;
+    color: #f8eacf;
+    padding: 2vw 4vw;
+    float: left;
+}
+
+.saturs .Konts_nav ul .Lietotajs p {
+    line-height: 4vw;
+    font-size: 3vw;
+    text-align: center;
+    color: #fff;
+}
+
+.Konta_teksts h3 {
+    margin-bottom: 1vw;
+}
+
+.Konta_teksts p {
+    line-height: 4vw;
+}
+
+.pievienot_poga {
+    grid-column: 1;
+    grid-row: 2;
+    z-index: 99;
+}
+
+    .pievienot_poga h3 {
+        color: #e9a74a;
+    }
+
+.konts_poga {
+    font-size: 3vw;
+    border: 0.3vw solid #4d2a31;
+    border-radius: 1vw;
+    line-height: 6vw;
+    padding: 2vw 3vw;
+    margin-right: 1vw;
+    color: #87d3c7;
+}
+
+.Konts_Izvelets {
+    color: #e9a74a;
+}
+
+.ievade_ievads {
+    font-size: 3vw;
+    padding-left: 2vw;
+    width: calc(100% - 2vw);
+    height: 5vw;
+    margin-top: 3vw;
+    background: 0 0;
+    border: 0.3vw solid #4d2a31;
+}
+
+.ievade_attels {
+    width: calc(100% - 1.5vw);
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+form button {
+    margin-top: 2vw;
+    width: 100%;
+    font-size: 1.2vw;
+}
+
+.meklet_poga {
+    width: auto;
+    margin: 0;
+}
+
+.liela_poga {
+    font-size: 2vw;
+}
+
+.ievade_gars {
+    height: 30vw;
+}
+
+.ievade_videjs {
+    height: 10vw;
+}
+
+.ievade_poga {
+    display: block;
+    width: 100%;
+    height: 6vw;
+    margin-top: 3vw;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #494d59;
+    background: 0 0;
+    border: 0.3vw solid #4d2a31;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.kluda {
+    margin-top: 1vw;
+    color: #e9a74a;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    p {
+        font-size: 1.3vw;
+        line-height: 1.5vw;
+    }
+
+    .teksta_atstarpe {
+        line-height: 1.8vw;
+        margin-top: 5vw;
+    }
+
+        .teksta_atstarpe::first-letter {
+            margin-left: 2vw;
+        }
+
+    h1 {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    h3 {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+
+    h2 {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+
+    .atstarpe {
+        height: 5vw;
+    }
+
+    .saturs {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+        .saturs .vidus {
+            grid-column: 1/4;
+            width: 100%;
+        }
+
+        .saturs .Attels {
+            margin-left: 0;
+            width: 30vw;
+            height: 30vw;
+            grid-column: 2/3;
+        }
+
+        .saturs .vidus_mazais {
+            width: 40%;
+            grid-column: 1/4;
+        }
+
+    .pasakas_karts {
+        grid-column: auto;
+    }
+
+    #nav_turetajs label {
+        display: none;
+    }
+
+    #nav_turetajs {
+        height: 5vw;
+        display: grid;
+        grid-template-columns: 0.6fr 1.6fr 2.6fr 0.6fr;
+    }
+
+    .konts_sadalas {
+        margin-top: 4vw;
+    }
+
+    .logo {
+        text-align: left;
+        font-size: 1.8vw;
+        padding-top: 1.2vw;
+        line-height: 2.5vw;
+        grid-column: 2/3;
+    }
+
+    .nav {
+        position: relative;
+        transition: none;
+        transform: scale(1, 1);
+        top: initial;
+        left: initial;
+        grid-column: 3/4;
+    }
+
+        .nav ul {
+            margin-top: 0.7vw;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+            .nav ul li {
+                height: 3vw;
+                margin-left: 4vw;
+                padding-bottom: 0;
+                padding-top: 0.6vw;
+                line-height: 2vw;
+                font-size: 1.8vw;
+                opacity: 1;
+            }
+
+    .ievade_paradit_poga p {
+        font-size: 1.6vw;
+        padding: 1vw 0;
+    }
+
+    #labot_pasaku_iespejas {
+        position: relative;
+        width: 70%;
+        height: 70%;
+        margin: 5%;
+    }
+
+    .saturs .Konts_nav {
+        text-align: right;
+        height: 100%;
+        grid-row: 1/3;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        grid-column: 5/6;
+    }
+
+    .Konts_nav a {
+        width: 90%;
+        line-height: 4vw;
+        margin: 0;
+        font-size: 1.6vw;
+        padding: 0;
+    }
+
+    .saturs .Konts_nav ul .Lietotajs p {
+        line-height: 4vw;
+        font-size: 1.6vw;
+    }
+
+    .Konta_teksts p {
+        line-height: 1.8vw;
+    }
+
+    .pievienot_poga {
+        grid-row: 1;
+        grid-column: 1/5;
+        align-self: start;
+    }
+
+    .konts_poga {
+        font-size: 1.3vw;
+        border: 0.2vw solid #4d2a31;
+        padding: 1vw 1vw;
+        margin-right: 2vw;
+        line-height: 4vw;
+    }
+
+    .ievade_ievads {
+        width: calc(100% - 1.5vw);
+        font-size: 2vw;
+        padding-left: 1vw;
+        height: 3vw;
+        margin-top: 2vw;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 2vw;
+    }
+
+    ::-moz-placeholder {
+        font-size: 2vw;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 2vw;
+    }
+
+    :-moz-placeholder {
+        font-size: 2vw;
+    }
+
+    .ievade_poga {
+        height: 4vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+
+    .ievade_gars {
+        height: 20vw;
+    }
+
+    .ievade_videjs {
+        height: 10vw;
+    }
+
+    .paralaks {
+        height: calc(100vh - 5vw);
+    }
+
+    .paralaks_grupa {
+        height: calc(100vh - 5vw);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    p {
+        font-size: 1vw;
+        line-height: 1.2vw;
+    }
+
+    .teksta_atstarpe {
+        line-height: 1.5vw;
+        margin-top: 5vw;
+    }
+
+    h1 {
+        font-size: 1.6vw;
+        line-height: 2vw;
+    }
+
+    h3 {
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+    }
+
+    h2 {
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+    }
+
+    .saturs .vidus_mazais {
+        width: 70%;
+    }
+
+    .atstarpe {
+        height: 4vw;
+    }
+
+    #nav_turetajs {
+        height: 4vw;
+    }
+
+    .konts_sadalas {
+        margin-top: 3vw;
+        padding: 1vw 0;
+    }
+
+        .konts_sadalas a {
+            font-size: 1.2vw;
+            padding: 1vw;
+        }
+
+    .logo {
+        padding-top: 0.7vw;
+        font-size: 1.2vw;
+    }
+
+    .nav {
+        height: 4vw;
+    }
+
+        .nav a li {
+            height: 2vw;
+            line-height: 1vw;
+            font-size: 1.2vw;
+            padding-bottom: 0;
+        }
+
+    .saturs .Konts_nav {
+        padding: 0;
+    }
+
+        .Konts_nav a,
+        .saturs .Konts_nav ul .Lietotajs p {
+            line-height: 3vw;
+            font-size: 1.2vw;
+        }
+
+    .Konta_teksts p {
+        line-height: 1.6vw;
+    }
+
+    .konts_poga {
+        font-size: 1vw;
+        line-height: 3vw;
+        border: 0.2vw solid #4d2a31;
+        padding: 0.8vw 1.5vw;
+        margin-right: 2vw;
+    }
+
+    .ievade_ievads {
+        font-size: 1.5vw;
+        padding-left: 1vw;
+        height: 2.5vw;
+        margin-top: 2vw;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 1.5vw;
+    }
+
+    ::-moz-placeholder {
+        font-size: 1.5vw;
+    }
+
+    :-ms-input-placeholder {
+        font-size: 1.5vw;
+    }
+
+    :-moz-placeholder {
+        font-size: 1.5vw;
+    }
+
+    .ievade_poga {
+        height: 3.5vw;
+        margin-top: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .ievade_gars {
+        height: 20vw;
+    }
+}
